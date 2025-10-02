@@ -1,0 +1,20 @@
+/* Global */
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin:0; padding:0; background:#f4f6f9; color:#333; }
+header { background:#2a9d8f; color:white; text-align:center; padding:20px; font-size:1.8em; }
+.container { max-width:900px; margin:auto; padding:20px; }
+
+/* Forms */
+.forms { display:flex; flex-wrap:wrap; gap:20px; }
+input, textarea, button { display:block; width:100%; margin:10px 0; padding:10px; border-radius:6px; border:1px solid #ccc; }
+textarea { height:120px; resize:vertical; }
+button { background:#2a9d8f; color:white; border:none; cursor:pointer; transition:0.2s; }
+button:hover { background:#21867a; }
+
+/* Dashboard */
+.dashboard-nav { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:20px; }
+.dashboard-nav button { flex:1; padding:12px; border-radius:5px; background:#264653; color:white; font-weight:bold; }
+.dashboard-nav button:hover { background:#1b3a40; }
+
+.dashboard-section { display:block; background:white; padding:20px; border-radius:10px; margin-bottom:20px; box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+ul { list-style:none; padding:0; }
+ul li { padding:10px; border-bottom:1px solid #ddd; }
